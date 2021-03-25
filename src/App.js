@@ -5,7 +5,8 @@ import './css/vendor.css';
 import Header from './comps/header.jsx';
 import Sectionone from './comps/sectionone.jsx';
 import About from './comps/About.jsx';
-import Services from './comps/services.jsx'
+import Services from './comps/services.jsx';
+import Portfolio from './comps/portfolio.jsx'
 function App() {
   return (
     <div className='App'>
@@ -13,7 +14,7 @@ function App() {
     <Sectionone/>
     <About/>
     <Services/>
-
+    <Portfolio/>
     </div>
   );
 }
