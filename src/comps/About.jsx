@@ -5,7 +5,6 @@ import "../css/vendor.css";
 import AOS from "aos";
 export default class About extends Component {
   componentDidMount() {
-    console.log("yes");
 
     AOS.init({
       // initialise with other settings
@@ -31,7 +30,7 @@ export default class About extends Component {
                 <div className="profile-pic" data-aos="fade-up">
                   <img
                     src="images/rami.jpg"
-                    srcSet="images/rami-pic.jpg 1x"
+                    srcSet="images/rami-pic.jpg 1x, images/rami-pic.jpg 2x"
                     alt=""
                   />
                 </div>
@@ -39,8 +38,13 @@ export default class About extends Component {
                 <h3 data-aos="fade-up">Profile</h3>
 
                 <p data-aos="fade-up">
-                My coding journey began when I realized that I wanted to invent solutions for life's everyday problems. I enjoy the logic of solving coding challenges by splitting a big problem into smaller tasks and systematically tackling them one at a time.
-                When I'm not coding, I'm spending my free time either playing Ping Pong, Surfing, or looking for new music on SoundCloud.
+                  My coding journey began when I realized that I wanted to
+                  invent solutions for life's everyday problems. I enjoy the
+                  logic of solving coding challenges by splitting a big problem
+                  into smaller tasks and systematically tackling them one at a
+                  time. When I'm not coding, I'm spending my free time either
+                  playing Ping Pong, Surfing, or looking for new music on
+                  SoundCloud.
                 </p>
               </div>
             </div>

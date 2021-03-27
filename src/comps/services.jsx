@@ -5,7 +5,6 @@ import "../css/vendor.css";
 import AOS from "aos";
 class Services extends PureComponent {
   componentDidMount() {
-    console.log("yes");
 
     AOS.init({
       // initialise with other settings

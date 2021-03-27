@@ -5,7 +5,7 @@ import "../css/vendor.css";
 import AOS from "aos";
 class Footer extends PureComponent {
   componentDidMount() {
-    console.log("yes");
+ 
 
     AOS.init({
       // initialise with other settings
