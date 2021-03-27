@@ -15,45 +15,45 @@ class Footer extends PureComponent {
   render() {
     return (
       <div>
-        <footer class="s-footer h-dark-bg">
-          <div class="right-vert-line"></div>
+        <footer className="s-footer h-dark-bg">
+          <div className="right-vert-line"></div>
 
-          <div class="row s-footer__main">
-            <div class="column large-6">
-              <div class="section-intro" data-aos="fade-up">
-                <h3 class="subhead">Get In Touch</h3>
+          <div className="row s-footer__main">
+            <div className="column large-6">
+              <div className="section-intro" data-aos="fade-up">
+                <h3 className="subhead">Get In Touch</h3>
 
-                <h1 class="display-1">
+                <h1 className="display-1">
                   Have an idea or a concept that really excite you? Let's turn
                   that idea into reality. Shoot me a message.
                 </h1>
               </div>
 
-              <div class="footer-email-us">
-                <a href="mailto:#0" class="btn btn--primary h-full-width">
+              <div className="footer-email-us">
+                <a href="mailto:#0" className="btn btn--primary h-full-width">
                   Let's Talk
                 </a>
               </div>
             </div>
 
-            <div class="column large-5">
-              <div class="footer-contacts">
-                <div class="footer-contact-block" data-aos="fade-up">
-                  <h5 class="footer-contact-block__header">Email</h5>
-                  <p class="footer-contact-block__content">
-                    <a href="mailto:#0">sayhello@ethos.com</a>
+            <div className="column large-5">
+              <div className="footer-contacts">
+                <div className="footer-contact-block" data-aos="fade-up">
+                  <h5 className="footer-contact-block__header">Email</h5>
+                  <p className="footer-contact-block__content">
+                    <a href="mailto:#0">sayeh8rami@gmail.com</a>
                   </p>
                 </div>
-                <div class="footer-contact-block" data-aos="fade-up">
-                  <h5 class="footer-contact-block__header">Phone</h5>
-                  <p class="footer-contact-block__content">
-                    <a href="tel:+1975432345">+197 543 2345</a>
+                <div className="footer-contact-block" data-aos="fade-up">
+                  <h5 className="footer-contact-block__header">Phone</h5>
+                  <p className="footer-contact-block__content">
+                    <a href="tel:+1975432345">+216 46 350 703</a>
                   </p>
                 </div>
                 <br></br>
-                <div class="footer-contact-block" data-aos="fade-up">
-                  <h5 class="footer-contact-block__header">Social</h5>
-                  <ul class="footer-contact-block__list">
+                <div className="footer-contact-block" data-aos="fade-up">
+                  <h5 className="footer-contact-block__header">Social</h5>
+                  <ul className="footer-contact-block__list">
                     <li>
                       <a href="#0">Twitter</a>
                     </li>
@@ -69,28 +69,6 @@ class Footer extends PureComponent {
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="row s-footer__bottom">
-            <div class="column large-full ss-copyright">
-              <span>© Copyright Ethos 2019</span>
-              <span>
-                Design by <a href="https://www.styleshout.com/">StyleShout</a>
-              </span>
-            </div>
-
-            <div class="ss-go-top">
-              <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 0l8 9h-6v15h-4v-15h-6z" />
-                </svg>
-              </a>
             </div>
           </div>
         </footer>

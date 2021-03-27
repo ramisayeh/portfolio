@@ -18,10 +18,8 @@ export default class sectionone extends Component {
           <div className="row hero-content">
             <div className="column large-full">
               <h1>
-                <p>Hello, I'm John Doe</p>
-                <p> a frontend developer </p>
-                <p>designer currently </p>
-                <p>based somewhere</p>
+                <p>Hello, I'm Rami sayeh</p>
+                <p> a full stack developer </p>
               </h1>
 
               <ul className="hero-social">
